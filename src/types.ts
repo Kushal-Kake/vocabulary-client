@@ -8,3 +8,7 @@ export interface Word {
     etymology?: string;
   }
   
+  export interface WordCardProps {
+    word: Word;
+    onClick: () => void;
+  }

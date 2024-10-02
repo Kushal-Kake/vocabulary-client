@@ -1,11 +1,6 @@
 import React from 'react';
 import { Card, CardContent, Typography } from '@mui/material';
-import { Word } from '../types';
-
-interface WordCardProps {
-  word: Word;
-  onClick: () => void;
-}
+import { WordCardProps } from '../types';
 
 const WordCard: React.FC<WordCardProps> = ({ word, onClick }) => {
   return (

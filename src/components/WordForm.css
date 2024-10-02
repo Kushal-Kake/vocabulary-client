@@ -1,29 +1,29 @@
 .word-form-container {
-    padding: 20px; /* Add some padding */
-    border-radius: 8px; /* Rounded corners */
-    text-align: center; /* Center align content */
+    padding: 20px;
+    border-radius: 8px; 
+    text-align: center;
 }
 
 .word-form {
     display: flex;
-    justify-content: center; /* Center the form */
-    align-items: center; /* Align items vertically */
+    justify-content: center; 
+    align-items: center;
 }
 
 .word-input {
-    width: 50%; /* Set width of the input field to 50% */
-    height: 40px; /* Height of the input field */
-    margin-right: 20px; /* Space between input and button */
+    width: 50%; 
+    height: 40px; 
+    margin-right: 20px; 
 }
 
 .add-button {
-    height: 40px; /* Match the height of the input field */
-    background-color: #4caf50; /* Custom color */
-    color: white; /* Button text color */
-    padding: 0 20px; /* Optional: Add horizontal padding for the button */
-    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    height: 40px; 
+    background-color: #4caf50; 
+    color: white; 
+    padding: 0 20px; 
+    transition: background-color 0.3s; 
 }
 
 .add-button:hover {
-    background-color: #388e3c; /* Darker shade for hover */
+    background-color: #388e3c; 
 }

@@ -21,8 +21,8 @@ const WordForm: React.FC<WordFormProps> = ({ onWordAdded }) => {
           data: { word },
         },
       });
-      setWord(''); // Clear the input after submission
-      onWordAdded(); // Call the function to fetch words
+      setWord('');
+      onWordAdded(); 
     } catch (error) {
       console.error("Error adding word:", error);
     }
