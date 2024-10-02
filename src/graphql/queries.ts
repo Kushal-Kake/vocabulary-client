@@ -1,7 +1,7 @@
 import { gql } from '@apollo/client';
 
 export const CREATE_WORD = gql`
-  mutation CreateWord($data: TextInput!) {
+  mutation CreateWord($data: WordInput!) {
     createWord(data: $data) {
       _id
       word
